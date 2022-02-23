@@ -10,6 +10,7 @@ azureml-mlflow = "^1.38.0"
 mlflow = "^1.23.1"
 pydantic = "^1.9.0"
 azureml = "^0.2.7"
+setuptools = "56.2.0"
 
 [tool.poetry.dev-dependencies]
 
