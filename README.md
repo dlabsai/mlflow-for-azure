@@ -33,6 +33,13 @@ source .envrc
 
 **Highly recommended** to use `direnv` for automation of this procedure.
 
+### Testing ###
+
+To test the connection with your Azure ML Workspace run:
+```sh
+make test_mlflow
+```
+
 ## Sources
 
 * panda.jpg - <a href="https://www.flaticon.com/free-icons/cute" title="cute icons">Cute icons created by Smashicons - Flaticon</a>
