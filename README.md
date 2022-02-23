@@ -1,29 +1,38 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository contains necessary files for the Azure-MLflow integration. The next
+steps will walk you through the initialization process and the testing procedure. After
+completion your environment would be ready to play with Azure ML for the logging
+purposes.
 
-### What is this repository for? ###
+## Setup ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Install `poetry`
 
-### How do I get set up? ###
+With your preferred method install `poetry` tool. Please note, that installing `poetry`
+with other that **recommended** method (curl) could cause troubles. Using `pip`,
+`homebrew` or other similar method could cause `PATH` problems and lead
+to errors while setting-up some packages.
+See [installation instructions for poetry](https://github.com/python-poetry/poetry#installation).
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Install dependencies
 
-### Contribution guidelines ###
+Just run:
+```sh
+make install
+```
 
-* Writing tests
-* Code review
-* Other guidelines
+### Environment
 
-### Who do I talk to? ###
+You should export environment variables from `.envrc` file located in the main
+project directory, but first, fill the missing `Azure` parameters -> SUBSCRIPTION_ID,
+WORKSPACE_ID and RESOURCE_GROUP. Run:
+```sh
+source .envrc
+```
 
-* Repo owner or admin
-* Other community or team contact
+**Highly recommended** to use `direnv` for automation of this procedure.
+
+## Sources
+
+* panda.jpg - <a href="https://www.flaticon.com/free-icons/cute" title="cute icons">Cute icons created by Smashicons - Flaticon</a>

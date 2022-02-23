@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mlflow-for-azure"
+version = "0.1.0"
+description = ""
+authors = ["MateuszKaczorek <mateusz.kaczorek@dlabs.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+azureml-mlflow = "^1.38.0"
+mlflow = "^1.23.1"
+pydantic = "^1.9.0"
+azureml = "^0.2.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
